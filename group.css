@@ -1,0 +1,31 @@
+body {
+    background-image: linear-gradient(to bottom, #00a4cd, #00cd82,#00a4cd);
+    background-size: 100% 200%;
+    animation: colorsMove 2s linear infinite ;
+    font-family:Arial, Helvetica, sans-serif;
+  /* border: solid 1px red; */
+
+  }
+  
+  @keyframes colorsMove {
+    0% {
+      background-position-y: -100%;
+    }
+    50%{
+        background-position-y: 0%;
+    }
+    100% {
+      background-position-y: 100%;
+    }
+  }
+
+  h1 {
+    color: aliceblue;
+    display: flex;
+    font-size: 4rem;
+    font-weight: bold;
+    justify-content: center;
+    text-shadow: 2px 2px 5px #888;
+  }
+
+
