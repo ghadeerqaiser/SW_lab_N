@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom, #4d9a00, #ff0000,#80ff00, #ff0000, #4d9a00);
+    background-image: linear-gradient(to left, #001a9b, #a10000 ,#001a9b);
     background-size: 100% 200%;
     animation: colorsMove 2s linear infinite ;
     font-family:Arial, Helvetica, sans-serif;
